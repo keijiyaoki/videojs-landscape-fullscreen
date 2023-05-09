@@ -15,7 +15,6 @@ Desktop.ini
 .project/
 .settings/
 .vscode/
-.eslintcache
 
 # Logs
 logs
@@ -27,4 +26,8 @@ bower_components/
 node_modules/
 
 # Build-related directories
+dist/
 docs/api/
+test/dist/
+.eslintcache
+.yo-rc.json
