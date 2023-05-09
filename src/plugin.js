@@ -117,7 +117,7 @@ const onPlayerReady = (player, options) => {
 const landscapeFullscreen = function(options) {
   if (videojs.browser.IS_ANDROID || videojs.browser.IS_IOS) {
     this.ready(() => {
-      onPlayerReady(this, videojs.mergeOptions(defaults, options));
+      onPlayerReady(this, videojs.obj.merge(defaults, options));
     });
   }
 };
