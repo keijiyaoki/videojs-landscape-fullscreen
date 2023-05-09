@@ -128,5 +128,4 @@ registerPlugin('landscapeFullscreen', landscapeFullscreen);
 // Include the version number.
 landscapeFullscreen.VERSION = VERSION;
 
-
 export default landscapeFullscreen;
