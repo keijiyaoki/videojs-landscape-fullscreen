@@ -54,7 +54,7 @@
     "README.md": "doctoc --notitle"
   },
   "peerDependencies": {
-      "video.js": "5.x || 6.x || 7.x || *"
+      "video.js": "5.x || 6.x || 7.x || 8.x || *"
   },
   "dependencies": {
     "global": "^4.4.0"
