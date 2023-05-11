@@ -1,4 +1,4 @@
-import videojs from 'video.js';
+import videojs from '!video.js';
 import {version as VERSION} from '../package.json';
 import window from 'global/window';
 
