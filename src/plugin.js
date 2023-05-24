@@ -12,7 +12,7 @@ const defaults = {
   }
 };
 
-const screen = window.screen;
+const screen = window.screen || {};
 
 /* eslint-disable no-console */
 screen.lockOrientationUniversal = (mode) => screen.orientation && screen.orientation.lock(mode).then(() => {}, err => console.log(err)) || screen.mozLockOrientation && screen.mozLockOrientation(mode) || screen.msLockOrientation && screen.msLockOrientation(mode);
